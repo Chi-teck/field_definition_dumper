@@ -34,8 +34,8 @@ $build = $node->uid->view($display_options);
 ```
 
 ```twig
-{# Assuming you have Twig Tweak module installed #}
-{% set display_options = { type: 'entity_reference_label', settings: {link: false} }%}
+{# Assuming Twig Tweak module is installed #}
+{% set display_options = { type: 'entity_reference_label', settings: {link: false} } %}
 {{ node.uid|view(display_options) }}
 ```
 
