@@ -1,0 +1,19 @@
+{
+    "name": "chi-teck/field_definition_dumper",
+    "description": "Provides Drush commands to dump definitions of Drupal fields, widgets and formatters.",
+    "type": "drupal-drush",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "homepage": "",
+    "require": {
+        "php": ">=8.0",
+        "drush/drush": "^11.0"
+    },
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^11"
+            }
+        }
+    }
+}

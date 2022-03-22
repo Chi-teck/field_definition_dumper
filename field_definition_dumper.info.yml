@@ -1,0 +1,5 @@
+name: Field Definition Dumper
+type: module
+description: Provides Drush commands to dump definitions of Drupal fields, widgets and formatters.
+core_version_requirement: ^9 || ^10
+package: Development

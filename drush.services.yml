@@ -1,0 +1,9 @@
+services:
+  field_definition_dumper.commands:
+    class: Drupal\field_definition_dumper\Commands\FieldDumperCommands
+    arguments:
+      - '@plugin.manager.field.field_type'
+      - '@plugin.manager.field.widget'
+      - '@plugin.manager.field.formatter'
+    tags:
+      - { name: drush.command }
