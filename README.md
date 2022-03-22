@@ -2,11 +2,9 @@
 
 Drush commands to dump definitions of Drupal fields, widgets and formatters.
 
-Field display options in Drupal are associative arrays. That makes it hard
+Field display options in Drupal are not well documented. That makes it hard
 to find correct values for them when fields are defined in code. For instance,
-when you specify base field definitions for custom entity type. These Drush
-commands will save you from searching for the configuration options in the
-source code of widget and formatters.
+when you specify base field definitions for custom entity type.
 
 ```php
 $fields['uid'] = BaseFieldDefinition::create('entity_reference')
@@ -40,6 +38,9 @@ $build = $node->uid->view($display_options);
 {% set display_options = { type: 'entity_reference_label', settings: {link: false} }%}
 {{ node.uid|view(display_options) }}
 ```
+
+These Drush commands will save you from searching for the appropriate options
+in the source code of widget and formatters.
 
 ## Installation
 ```
