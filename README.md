@@ -48,7 +48,7 @@ composer require chi-teck/field_definition_dumper --dev
 drush en field_definition_dumper
 ```
 
-Given that the module is intended for local development. It's recommended you
+Given that the module is intended for local development, it's recommended you
 exclude it from the configuration by adding the following line to your local
 settings.php file.
 ```php
