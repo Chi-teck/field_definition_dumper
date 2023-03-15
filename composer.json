@@ -6,8 +6,8 @@
     "license": "GPL-2.0+",
     "homepage": "",
     "require": {
-        "php": ">=8.0",
-        "drush/drush": "^11.0"
+        "php": ">=8.1",
+        "drush/drush": "^11 || ^12"
     },
     "extra": {
         "drush": {
