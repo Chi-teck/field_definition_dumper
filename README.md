@@ -1,3 +1,5 @@
+**Outdated: These commands have been moved to Drush core (https://github.com/drush-ops/drush/pull/5517).**
+
 # Field Definition Dumper
 
 Drush commands to dump definitions of Drupal fields, widgets and formatters.
